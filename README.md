@@ -2,8 +2,9 @@
 
 - This project was created with Vite react app, using typescirpt and other libraries as Redux toolkit.
 
-## Scripts
+## Scripts to run this project
 
+- `npm install` - install the dependencies
 - `dev`/`start` - start dev server and open browser
 - `build` - build for production
 - `preview` - locally preview production build
