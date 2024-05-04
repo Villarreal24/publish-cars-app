@@ -42,10 +42,10 @@ export const carsApi = createApi({
       providesTags: [{ type: "Cars" }],
     }),
     postPublishCarForm: build.mutation<TestResponse, FormData>({
-      query: data => ({
+      query: formData => ({
         url: "/publish",
         method: "POST",
-        body: data,
+        body: formData,
       }),
     }),
   }),

@@ -1,4 +1,5 @@
-export interface FormData {
-  price: number | string
+export interface DataForm {
+  price: string
   description: string
+  images?: File[]
 }
